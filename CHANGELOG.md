@@ -7,9 +7,10 @@ This project uses [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ### Added
 Added a controller with a method to convert image to JPEG
+Added service to docker-compose.yml
 
 ### Changed
-
+Added steps in dockerfile to create docker image.
 ...
 
 ### Internal
