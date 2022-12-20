@@ -7,20 +7,6 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <None Remove="resources\big.jpg" />
-      <None Remove="resources\Invalid.png" />
-      <None Remove="resources\Invalid1.jpg" />
-      <None Remove="resources\jfif.jfif" />
-      <None Remove="resources\jpeg.jpg" />
-      <None Remove="resources\NotValid.jpg" />
-      <None Remove="resources\png.png" />
-      <None Remove="resources\small.jpg" />
-      <None Remove="resources\small.png" />
-      <None Remove="resources\Test.jpeg" />
-      <None Remove="resources\transparent.png" />
-    </ItemGroup>
-
-    <ItemGroup>
       <PackageReference Include="CommandLineTool" Version="1.0.0" />
       <PackageReference Include="Microsoft.Extensions.Hosting" Version="5.0.0" />
       <PackageReference Include="Microsoft.Extensions.Http" Version="5.0.0" />
@@ -34,27 +20,6 @@
         <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
         <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
         <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      </Content>
-      <Content Include="resources\big.jpg">
-        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-      </Content>
-      <Content Include="resources\Invalid.png">
-        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-      </Content>
-      <Content Include="resources\jfif.jfif">
-        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-      </Content>
-      <Content Include="resources\jpeg.jpg">
-        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-      </Content>
-      <Content Include="resources\png.png">
-        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-      </Content>
-      <Content Include="resources\small.png">
-        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-      </Content>
-      <Content Include="resources\transparent.png">
-        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       </Content>
     </ItemGroup>
 

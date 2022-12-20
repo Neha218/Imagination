@@ -33,10 +33,6 @@ namespace Imagination
 
                 await using var responseStream = await response.Content.ReadAsStreamAsync(cancellationToken);
 
-                using (FileStream fs = new FileStream(@"D:\Imagination\"+ new DateTimeOffset(DateTime.UtcNow).ToUnixTimeSeconds() + "_Output.jpeg", FileMode.Create))
-                {
-                    await responseStream.CopyToAsync(fs);
-                }
                 activity?.AddEvent(new ActivityEvent("Stream received"));
 
                 return await StreamToDiskAsync(responseStream, cancellationToken);
